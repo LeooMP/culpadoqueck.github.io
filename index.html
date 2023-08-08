@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="laquestione.css" media="screen" />
+    <link href="https://fonts.cdnfonts.com/css/arcade-classic" rel="stylesheet">
+                
+                
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vc quer?</title>
+</head>
+<body>
+    
+    <h1>Oii, Lele!</h1>
+    <p class="queck">Tá cuidando bem do queck?</p>
+
+    <p class="desenrola">
+    É que ele me disse que queria muito ir assistir Oppenheimer...<br><br>
+    Daí passou pela minha cabeça:<BR> "Vai que ela quer ir com a gente...Né,queck?"</p>
+    </p>
+    <p class="chama">Você quer?</p>
+
+
+    <a href="https://youtu.be/izGwDsrQ1eQ"><button class="botao1">SIM</button></a>
+
+
+    <button class="botao2" id="nao">NÃO</button>
+    
+</body>
+
+<script>
+    let buttonn = document.getElementById('nao');
+    let height = window.innerHeight - 50;
+    let width = window.innerWidth - 50;
+
+
+    buttonn.addEventListener( 'mouseover', function(){
+        buttonn.style.position = "absolute";
+        buttonn.style.top = Math.random(2)* height + "px";
+        buttonn.style.left = Math.random(2) * width + "px";
+    })
+</script>
+
+</html>

@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url(PressStart2P-Regular.ttf) format('woff2'),
+         url(PressStart2P-Regular.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+                                                                                          
+    background-image: url(espaco.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(5px);
+    
+
+}
+
+h1{
+    padding-top: 120px;
+    text-align: center;
+    
+}
+.queck {
+    font-size: 25px;
+    text-align: center;
+}
+
+.desenrola {
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.chama {
+    font-size: 20px;
+    text-align: center;
+}
+
+.botao1{
+    height: 55px;
+    width: 80px;
+    background-color: rgb(131, 3, 124);
+    border-radius: 10px;
+    color: black;
+    border-color: black;
+    border-width: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    font-weight: 600px;
+    margin-left: 500px;
+    margin-right: 120px;
+
+}
+
+.botao1:hover {
+    background-color: #82c962; /* Nova cor quando o mouse está sobre o botão */
+  }
+
+.botao2{
+    height: 55px;
+    width: 80px;
+    background-color: rgb(131, 3, 124);
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+}
